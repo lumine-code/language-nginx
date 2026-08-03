@@ -1,0 +1,23 @@
+{
+  "name": "Nginx",
+  "scopeName": "source.nginx",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-nginx",
+  "injectionRegex": "^(nginx)$",
+  "fileTypes": ["nginx.conf", "nginx"],
+  "comments": {
+    "start": "# "
+  },
+  "treeSitter": {
+    // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
+    // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
+    // reporting `diverged` or a nonzero `behind` means it is not.
+    "parserSource": "github:opa-oz/tree-sitter-nginx#v1.0.1",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-nginx/tree-sitter-nginx.wasm",
+    "highlightsQuery": "tree-sitter-nginx/highlights.scm",
+    "foldsQuery": "tree-sitter-nginx/folds.scm",
+    "indentsQuery": "tree-sitter-nginx/indents.scm",
+    "tagsQuery": "tree-sitter-nginx/tags.scm"
+  }
+}
