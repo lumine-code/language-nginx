@@ -9,6 +9,10 @@ Nginx configuration language support.
 - **Folding**: folds blocks.
 - **Symbol navigation**: block directives such as `server` and `upstream`, and `location` routes.
 
+## Installation
+
+To install `language-nginx` search for _language-nginx_ in the Install pane of the Lumine settings or run `lumine --install lumine-code/language-nginx`.
+
 ## Services
 
 - **hyperlink.injection** (`^1.0.0`): consumed to highlight URLs in these files as clickable links.
