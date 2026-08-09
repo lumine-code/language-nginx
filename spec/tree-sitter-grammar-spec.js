@@ -9,7 +9,7 @@ const path = require("path");
 
 describe("Nginx Tree-sitter grammar", () => {
   beforeEach(async () => {
-    await atom.packages.activatePackage("language-nginx");
+    await lumine.packages.activatePackage("language-nginx");
   });
 
   it("tokenizes the fixture", async () => {
