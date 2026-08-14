@@ -11,12 +11,12 @@ Nginx configuration language support.
 
 ## Installation
 
-To install `language-nginx` search for _language-nginx_ in the Install pane of the Lumine settings or run `lumine --install lumine-code/language-nginx`.
+To install `language-nginx` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-nginx`.
 
 ## Services
 
-- **hyperlink.injection** (`^1.0.0`): consumed to highlight URLs in these files as clickable links.
-- **todo.injection** (`^1.0.0`): consumed to highlight `TODO`-style markers inside comments.
+- `hyperlink.injection`: consumed to highlight URLs in these files as clickable links.
+- `todo.injection`: consumed to highlight `TODO`-style markers inside comments.
 
 ## Contributing
 
