@@ -3,7 +3,7 @@
   "scopeName": "source.nginx",
   "type": "tree-sitter",
   "parser": "tree-sitter-nginx",
-  "injectionRegex": "^(nginx)$",
+  "injectionNames": ["nginx"],
   "fileTypes": ["nginx.conf", "nginx"],
   "comments": {
     "start": "# "
@@ -14,10 +14,10 @@
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:opa-oz/tree-sitter-nginx#v1.0.1",
     "wasmBuildTool": "tree-sitter-cli#v0.26.13",
-    "grammar": "tree-sitter-nginx/tree-sitter-nginx.wasm",
-    "highlightsQuery": "tree-sitter-nginx/highlights.scm",
-    "foldsQuery": "tree-sitter-nginx/folds.scm",
-    "indentsQuery": "tree-sitter-nginx/indents.scm",
-    "tagsQuery": "tree-sitter-nginx/tags.scm"
+    "grammar": "nginx.wasm",
+    "highlightsQuery": "nginx-highlights.scm",
+    "foldsQuery": "nginx-folds.scm",
+    "indentsQuery": "nginx-indents.scm",
+    "tagsQuery": "nginx-tags.scm"
   }
 }
