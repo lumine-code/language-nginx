@@ -1,4 +1,5 @@
-(comment) @comment.line.nginx @_IGNORE_.spell
+((comment) @comment.line.nginx @_IGNORE_.spell
+  (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
 
 (value) @variable.other.nginx
 
