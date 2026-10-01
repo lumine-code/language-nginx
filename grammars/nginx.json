@@ -18,6 +18,7 @@
     "highlightsQuery": "nginx-highlights.scm",
     "foldsQuery": "nginx-folds.scm",
     "indentsQuery": "nginx-indents.scm",
-    "tagsQuery": "nginx-tags.scm"
+    "tagsQuery": "nginx-tags.scm",
+    "injectionsQuery": "nginx-injections.scm"
   }
 }
