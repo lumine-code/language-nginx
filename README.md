@@ -9,6 +9,8 @@ Nginx configuration language support.
 - **Folding**: folds blocks.
 - **Symbol navigation**: block directives such as `server` and `upstream`, and `location` routes.
 
+![Nginx syntax highlighting at the default editor font size.](.github/demo.png)
+
 ## Installation
 
 To install `language-nginx` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-nginx`.

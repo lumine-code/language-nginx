@@ -1,0 +1,16 @@
+{
+  "title": "language-nginx",
+  "description": "Nginx syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "815c34d1f989386eef9d4fdfc5a98a4546616169",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "Nginx syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 360
+    }
+  ]
+}
