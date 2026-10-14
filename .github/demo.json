@@ -1,16 +1,61 @@
 {
   "title": "language-nginx",
-  "description": "Nginx syntax highlighting in the editor.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "815c34d1f989386eef9d4fdfc5a98a4546616169",
+  "description": "Nginx syntax highlighting at the default editor font size.",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "cf1670ccf3959b751b62f79df8070bb7df01be88",
+  "themeSourceRevision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
   "mode": "normal",
   "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "6b68493dbe23cbfb877d728d735d234663362ad727976a609dd3db84f5e4b73e",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 360 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "c4d7a05fe6960ae6fb041981d6cf13e9c0286b17",
+      "dirty": true,
+      "workingTreeHash": "c8c1ecbfffafd0d4ca1f3ef718222e809b0d3f3aabe3d890d222f58976eb8817"
+    },
+    "package": {
+      "revision": "cf1670ccf3959b751b62f79df8070bb7df01be88",
+      "dirty": true,
+      "workingTreeHash": "76c88bd7bec03905c823dce08a061e62a3cbe23ba05b2dcb6aab67876d7c14a1"
+    },
+    "language-nginx": {
+      "revision": "cf1670ccf3959b751b62f79df8070bb7df01be88",
+      "dirty": true,
+      "workingTreeHash": "76c88bd7bec03905c823dce08a061e62a3cbe23ba05b2dcb6aab67876d7c14a1"
+    },
+    "one-theme": {
+      "revision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
+      "dirty": true,
+      "workingTreeHash": "50ec2f83a6347dd8113870992ec4eb2be4014f3d9e12213c2f51b543f1eca793"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "example.nginx.conf",
+      "sha256": "eeab4b9c6e918c6a49550347a0e30f61f6e357f4e918b114412c8ea1fdf62a0a"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "Nginx syntax highlighting at the default editor font size.",
       "width": 1100,
-      "height": 360
+      "height": 360,
+      "sha256": "e57abd803dc0412e9ce0a8232b9080ce7322949a6907db7c583984fd2ee4d2ac"
     }
   ]
 }
