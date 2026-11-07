@@ -2,6 +2,9 @@
 Source: https://github.com/opa-oz/tree-sitter-nginx
 Revision: 7cdf006ed1addef698fc680ae31721950f85e5e9
 
+Parser source: github:opa-oz/tree-sitter-nginx#7cdf006ed1addef698fc680ae31721950f85e5e9
+Resolved commit: 7cdf006ed1addef698fc680ae31721950f85e5e9
+
 Original file: LICENSE
 
 MIT License
